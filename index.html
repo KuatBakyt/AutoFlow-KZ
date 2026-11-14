@@ -1,318 +1,174 @@
 <!doctype html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="theme-color" content="#101214">
-    <meta name="description"
-        content="AutoFlow KZ — демонстрационный сайт автосервиса в Алматы. Дизайн и разработка NovaWeb KZ.">
-    <meta property="og:title" content="AutoFlow KZ — демонстрационный сайт автосервиса">
-    <meta property="og:description" content="Премиальный концепт автосервиса от NovaWeb KZ">
-    <title>AutoFlow KZ — премиальный автосервис | Демо</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1012">
+  <meta name="description" content="AutoFlow KZ — демонстрационный сайт автосервиса в Алматы с каталогом услуг и формой записи.">
+  <link rel="canonical" href="https://autoflow-kz.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_KZ">
+  <meta property="og:title" content="AutoFlow KZ — премиальный автосервис">
+  <meta property="og:description" content="Демонстрационный сайт автосервиса в Алматы.">
+  <meta property="og:url" content="https://autoflow-kz.vercel.app/">
+  <meta property="og:image" content="https://autoflow-kz.vercel.app/assets/images/gallery5.png">
+  <meta property="og:image:alt" content="Механик рядом с BMW в мастерской">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>AutoFlow KZ — премиальный автосервис | Демо</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-    <div class="demo-banner">ДЕМОНСТРАЦИОННЫЙ ПРОЕКТ · NovaWeb KZ</div>
-    <header class="site-header" id="top">
-        <div class="container header-inner"><a href="#top" class="brand"
-                aria-label="AutoFlow KZ, на главную">AutoFlow<span>KZ</span><small>АВТОСЕРВИС В АЛМАТЫ</small></a>
-            <nav class="desktop-nav" aria-label="Основная навигация"><a href="#services">Услуги</a><a href="#about">О
-                    сервисе</a><a href="#works">Наши работы</a><a href="#contacts">Контакты</a></nav>
-            <div class="header-actions"><span class="phone-placeholder">☎ &nbsp;Телефон по запросу</span><a
-                    class="btn btn-primary btn-sm" href="#booking">Записаться <span aria-hidden="true">↗</span></a>
-            </div><button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false"
-                aria-controls="mobile-menu"><span></span><span></span><span></span></button>
-        </div>
-        <nav class="mobile-nav" id="mobile-menu" aria-label="Мобильная навигация" hidden><a
-                href="#services">Услуги</a><a href="#about">О сервисе</a><a href="#works">Наши работы</a><a
-                href="#contacts">Контакты</a><a href="#booking">Записаться</a></nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-visual" role="img" aria-label="Тёмный современный автосервис и спортивный автомобиль">
-            </div>
-            <div class="hero-shade"></div>
-            <div class="container hero-inner">
-                <div class="hero-copy">
-                    <p class="eyebrow">НАДЁЖНЫЙ СЕРВИС ДЛЯ ВАШЕГО АВТОМОБИЛЯ</p>
-                    <h1>Ваш автомобиль заслуживает безупречного <em>сервиса.</em></h1>
-                    <p class="hero-description">Диагностика, обслуживание и ремонт автомобилей в Алматы.
-                        Профессиональный подход к каждой детали.</p>
-                    <div class="hero-cta"><a class="btn btn-primary" href="#booking">Записаться на сервис <span
-                                aria-hidden="true">→</span></a><a class="btn btn-outline" href="#services">Посмотреть
-                            услуги</a></div>
-                </div>
-                <div class="hero-bottom">
-                    <div class="hero-features">
-                        <div><span class="line-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.65" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg></span>Профессиональное<br>оборудование</div>
-                        <div><span class="line-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.65" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M12 3l2 2 3-.2.7 3 2.5 1.8-1.5 2.4 1.5 2.4-2.5 1.8-.7 3-3-.2-2 2-2-2-3 .2-.7-3-2.5-1.8 1.5-2.4-1.5-2.4 2.5-1.8.7-3 3 .2z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg></span>Качественные<br>материалы</div>
-                        <div><span class="line-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.65" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                                    <path d="m9 12 2 2 4-4" />
-                                </svg></span>Прозрачная<br>стоимость</div>
-                        <div><span class="line-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="1.65" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <rect x="3" y="5" width="18" height="16" rx="2" />
-                                    <path d="M7 3v4M17 3v4M3 10h18m-12 5 2 2 4-4" />
-                                </svg></span>Удобная<br>запись</div>
-                    </div><a class="hero-preview" href="#works"><span class="play-icon"
-                            aria-hidden="true">→</span><span>Посмотрите<br><strong>как мы работаем</strong></span><span
-                            aria-hidden="true">↗</span></a>
-                </div>
-            </div>
-        </section>
-        <section class="section services" id="services">
-            <div class="container">
-                <div class="section-top">
-                    <div>
-                        <p class="eyebrow">УСЛУГИ</p>
-                        <h2>Сервис, которому доверяют</h2>
-                        <p class="section-intro">Полный спектр услуг для вашего автомобиля.<br>Внимание к каждой детали
-                            — от диагностики до ремонта.</p>
-                    </div><a class="link-pill" href="#booking">Все услуги <span>↗</span></a>
-                </div>
-                <div class="service-grid">
-                    <article class="service-card" style="--photo:url('assets/images/diagnostics.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path
-                                        d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg></span>
-                            <h3>Компьютерная<br>диагностика</h3>
-                            <p>Выявим проблему точно и быстро.</p><strong>от 7 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Компьютерная диагностика"
-                            aria-label="Выбрать компьютерную диагностику">↗</button>
-                    </article>
-                    <article class="service-card" style="--photo:url('assets/images/suspension.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path
-                                        d="M12 3l2 2 3-.2.7 3 2.5 1.8-1.5 2.4 1.5 2.4-2.5 1.8-.7 3-3-.2-2 2-2-2-3 .2-.7-3-2.5-1.8 1.5-2.4-1.5-2.4 2.5-1.8.7-3 3 .2z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg></span>
-                            <h3>Ремонт ходовой<br>части</h3>
-                            <p>Комфорт и безопасность в пути.</p><strong>от 15 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Ремонт ходовой части"
-                            aria-label="Выбрать ремонт ходовой">↗</button>
-                    </article>
-                    <article class="service-card" style="--photo:url('assets/images/oil.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z" />
-                                </svg></span>
-                            <h3>Замена масла</h3>
-                            <p>Забота о ресурсе вашего двигателя.</p><strong>от 5 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Замена масла"
-                            aria-label="Выбрать замену масла">↗</button>
-                    </article>
-                    <article class="service-card" style="--photo:url('assets/images/brakes.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="9" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg></span>
-                            <h3>Тормозная<br>система</h3>
-                            <p>Надёжное торможение в любых условиях.</p><strong>от 10 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Тормозная система"
-                            aria-label="Выбрать тормозную систему">↗</button>
-                    </article>
-                    <article class="service-card" style="--photo:url('assets/images/electric.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="m13 2-9 12h7l-1 8 10-12h-7z" />
-                                </svg></span>
-                            <h3>Автоэлектрика</h3>
-                            <p>Диагностика и ремонт электронных систем.</p><strong>от 8 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Автоэлектрика"
-                            aria-label="Выбрать автоэлектрику">↗</button>
-                    </article>
-                    <article class="service-card" style="--photo:url('assets/images/maintenance.webp')">
-                        <div class="service-content"><span class="service-icon"><svg aria-hidden="true"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="3" y="5" width="18" height="16" rx="2" />
-                                    <path d="M7 3v4M17 3v4M3 10h18m-12 5 2 2 4-4" />
-                                </svg></span>
-                            <h3>Техническое<br>обслуживание</h3>
-                            <p>Комплексный уход за автомобилем.</p><strong>от 12 000 ₸</strong>
-                        </div><button class="card-arrow" data-service="Техническое обслуживание"
-                            aria-label="Выбрать техническое обслуживание">↗</button>
-                    </article>
-                </div>
-                <p class="fineprint">* Цены приведены для демонстрации дизайна и не являются коммерческим предложением.
-                </p>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <div class="about-image" role="img" aria-label="Механик обслуживает автомобиль в мастерской"></div>
-            <div class="about-copy">
-                <p class="eyebrow">О НАС</p>
-                <h2>Точность в каждой детали</h2>
-                <p>Мы не просто ремонтируем автомобили. Мы заботимся о вашей безопасности, комфорте и уверенности на
-                    дороге.</p>
-                <div class="values">
-                    <div><span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                                <path d="m9 12 2 2 4-4" />
-                            </svg></span>
-                        <h3>Прозрачная стоимость</h3>
-                        <p>Стоимость согласуется до начала работ.</p>
-                    </div>
-                    <div><span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="3" y="5" width="18" height="16" rx="2" />
-                                <path d="M7 3v4M17 3v4M3 10h18M8 14h2m4 0h2" />
-                            </svg></span>
-                        <h3>Удобная запись</h3>
-                        <p>Оставьте заявку в удобное время.</p>
-                    </div>
-                    <div><span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M14 7a5 5 0 0 0-6 6l-5 5a2 2 0 0 0 3 3l5-5a5 5 0 0 0 6-6l-3 3-3-3z" />
-                            </svg></span>
-                        <h3>Понятные рекомендации</h3>
-                        <p>Объясняем, что и зачем нужно сделать.</p>
-                    </div>
-                    <div><span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="9" />
-                                <circle cx="12" cy="12" r="3" />
-                            </svg></span>
-                        <h3>Внимание к деталям</h3>
-                        <p>Продуманный подход к каждому этапу.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section works" id="works">
-            <div class="container">
-                <div class="section-top">
-                    <div>
-                        <p class="eyebrow">НАШИ РАБОТЫ</p>
-                        <h2>Работа, которую видно</h2>
-                        <p class="section-intro">Демонстрационная фотогалерея для портфолио NovaWeb KZ.</p>
-                    </div>
-                    <div class="gallery-controls"><button id="gallery-prev"
-                            aria-label="Предыдущие фотографии">←</button><button id="gallery-next"
-                            aria-label="Следующие фотографии">→</button></div>
-                </div>
-                <div class="gallery-track" tabindex="0" aria-label="Галерея демонстрационных изображений">
-                    <figure><img src="assets/images/gallery1.png" alt="Деталь тормозной системы" loading="lazy">
-                        <figcaption>Тормозная система</figcaption>
-                    </figure>
-                    <figure><img src="assets/images/gallery2.png" alt="Автомобильный двигатель" loading="lazy">
-                        <figcaption>Диагностика двигателя</figcaption>
-                    </figure>
-                    <figure><img src="assets/images/gallery3.png" alt="Автомобиль в мастерской" loading="lazy">
-                        <figcaption>Обслуживание автомобиля</figcaption>
-                    </figure>
-                    <figure><img src="assets/images/gallery4.png" alt="Работа автомеханика" loading="lazy">
-                        <figcaption>Работа с узлами</figcaption>
-                    </figure>
-                    <figure><img src="assets/images/gallery5.png" alt="Задняя часть автомобиля" loading="lazy">
-                        <figcaption>Финальная проверка</figcaption>
-                    </figure>
-                </div>
-                <p class="fineprint">Изображения демонстрационные, не являются отчётом о выполненных заказах.</p>
-            </div>
-        </section>
-        <section class="section booking-section" id="booking">
-            <div class="container booking-grid">
-                <div>
-                    <p class="eyebrow">ЗАПИСЬ НА СЕРВИС</p>
-                    <h2>Запишитесь<br>за минуту<span class="accent">.</span></h2>
-                    <p class="section-intro">Выберите услугу и удобную дату. В настоящем сервисе менеджер свяжется с
-                        вами для подтверждения записи.</p>
-                    <div class="booking-note"><span>↗</span>
-                        <p>Это демонстрационный проект. Данные формы никуда не отправляются, пока не настроен номер
-                            компании.</p>
-                    </div>
-                </div>
-                <form id="booking-form" class="booking-form" novalidate>
-                    <div class="form-row"><label>Ваше имя <span>*</span><input name="name" type="text"
-                                autocomplete="name" placeholder="Как к вам обращаться" required
-                                minlength="2"></label><label>Телефон <span>*</span><input name="phone" type="tel"
-                                autocomplete="tel" inputmode="tel" placeholder="+7 777 123 45 67" required></label>
-                    </div>
-                    <div class="form-row"><label>Марка автомобиля <span>*</span><input name="car" type="text"
-                                placeholder="Например, Toyota Camry" required></label><label>Тип услуги
-                            <span>*</span><select name="service" id="service-select" required>
-                                <option value="">Выберите услугу</option>
-                                <option>Компьютерная диагностика</option>
-                                <option>Ремонт ходовой части</option>
-                                <option>Замена масла</option>
-                                <option>Тормозная система</option>
-                                <option>Автоэлектрика</option>
-                                <option>Техническое обслуживание</option>
-                            </select></label></div><label>Предпочтительная дата <span>*</span><input name="date"
-                            id="booking-date" type="date" required></label><button class="btn btn-primary form-submit"
-                        type="submit">Отправить заявку <span>↗</span></button>
-                    <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
-                    <p class="fineprint">* Обязательные поля. Отправка возможна после настройки номера WhatsApp.</p>
-                </form>
-            </div>
-        </section>
-        <section class="contacts" id="contacts">
-            <div class="container contacts-grid">
-                <div>
-                    <p class="eyebrow">КОНТАКТЫ</p>
-                    <h2>Всегда на связи<span class="accent">.</span></h2>
-                    <p>Алматы, Казахстан</p>
-                    <dl>
-                        <dt>Адрес</dt>
-                        <dd>Указывается после подключения реального автосервиса</dd>
-                        <dt>Телефон</dt>
-                        <dd>Номер пока не настроен</dd>
-                        <dt>Режим работы</dt>
-                        <dd>Уточняется у владельца</dd>
-                    </dl><a class="btn btn-outline" href="#booking">Оставить заявку ↗</a>
-                </div>
-                <div class="map-placeholder"><span>↗</span><strong>АЛМАТЫ</strong><small>Здесь будет карта после
-                        добавления адреса компании</small></div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container footer-inner"><a href="#top"
-                class="brand">AutoFlow<span>KZ</span><small>ДЕМО-ПРОЕКТ</small></a>
-            <p>Концепт сайта автосервиса. Не является действующей компанией.</p><span>Digital experience by
-                <strong>NovaWeb KZ</strong></span>
-        </div>
-    </footer>
-    <div class="mobile-bottom"><a href="#booking" class="btn btn-primary">Записаться на сервис</a><button
-            id="mobile-contact" aria-label="Связаться через WhatsApp">WA</button></div>
-    <script src="js/main.js" defer></script>
+<a class="skip" href="#main">К основному содержанию</a>
+<div class="demo-banner">Демонстрационный проект · NovaWeb KZ</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#" aria-label="AutoFlow KZ, на главную">AutoFlow<em>KZ</em><small>Автосервис в Алматы</small></a>
+    <nav class="desktop-nav" aria-label="Основная навигация"><a href="#services">Услуги</a><a href="#about">О сервисе</a><a href="#works">Наши работы</a><a href="#contacts">Контакты</a></nav>
+    <div class="header-actions"><a class="btn btn-outline" data-call href="tel:+70000000000"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 18 18 0 0 1-7.9-2.8 18 18 0 0 1-5.5-5.5 18 18 0 0 1-2.8-8A2 2 0 0 1 5.6 3h3a2 2 0 0 1 2 1.7l.5 2.8a2 2 0 0 1-.5 2.1L9.3 11a14 14 0 0 0 4.7 4.7l1.4-1.3a2 2 0 0 1 2.1-.5l2.8.5a2 2 0 0 1 1.7 2.5Z"/></svg>Позвонить</a><a class="btn btn-outline" href="#booking">Записаться</a></div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  </div>
+  <nav id="mobile-menu" class="mobile-nav" aria-label="Мобильная навигация" hidden><a href="#services">Услуги</a><a href="#about">О сервисе</a><a href="#works">Наши работы</a><a href="#contacts">Контакты</a></nav>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-main">
+      <!-- Use clean source photos here. The original hero.webp contains UI baked into the bitmap. -->
+      <div class="hero-visual"><img src="assets/images/gallery5.png" alt="Механик осматривает BMW в мастерской" fetchpriority="high"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow">Автосервис в Алматы</p>
+        <h1 id="hero-title">Ваш автомобиль заслуживает безупречного <em>сервиса.</em></h1>
+        <p class="hero-description">Диагностика, техническое обслуживание и ремонт. Согласуем перечень работ и смету до начала ремонта.</p>
+        <div class="actions"><a class="btn btn-primary" href="#booking">Записаться на сервис</a><a class="btn btn-outline" href="#services">Посмотреть услуги</a></div>
+      </div>
+    </div>
+    <div class="hero-band">
+      <div class="container hero-band-inner">
+        <div><ul class="hero-features"><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8V4h4m8 0h4v4m0 8v4h-4m-8 0H4v-4m3-4h10"/></svg><span>Диагностика на сканерах Launch</span></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 22 6-4a5 5 0 0 0 2-4V5l-8-3-8 3v9a5 5 0 0 0 2 4Zm-4-10 3 3 5-6"/></svg><span>Гарантия на работы 6 месяцев</span></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1"/></svg><span>Смета до начала работ</span></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16v15H4zM8 3v4m8-4v4M4 10h16m-11 5 2 2 4-4"/></svg><span>Запись на удобное время</span></li></ul><p class="note">Условия приведены для демонстрации.</p></div>
+        <a class="hero-preview" href="#works"><img src="assets/images/gallery1.png" alt="Тормозной диск с оранжевым суппортом" loading="lazy" decoding="async"><span>Посмотрите, как мы работаем</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="section panel">
+    <div class="container">
+      <p class="eyebrow">Услуги</p>
+      <h2>Сервис, которому доверяют</h2>
+      <p class="section-intro">От компьютерной диагностики до ремонта и планового обслуживания.</p>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/diagnostics.webp" alt="Компьютерная диагностика" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8V4h4m8 0h4v4m0 8v4h-4m-8 0H4v-4m3-4h10"/></svg><h3>Компьютерная диагностика</h3><p>Считываем ошибки и проверяем параметры электронных систем.</p><strong>от 7 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Компьютерная диагностика">Записаться</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/suspension.webp" alt="Ремонт ходовой части" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 7a5 5 0 0 0-6-5l3 4-3 3-4-3a5 5 0 0 0 6 6l8 9 3-3-9-8Z"/></svg><h3>Ремонт ходовой части</h3><p>Проверяем подвеску и согласуем замену деталей.</p><strong>от 15 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Ремонт ходовой части">Записаться</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/oil.webp" alt="Замена масла" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 2C9 7 5 11 5 15a7 7 0 0 0 14 0c0-4-4-8-7-13Z"/></svg><h3>Замена масла</h3><p>Подбираем масло и фильтр по допуску производителя.</p><strong>от 5 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Замена масла">Записаться</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/brakes.webp" alt="Тормозная система" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 22 6-4a5 5 0 0 0 2-4V5l-8-3-8 3v9a5 5 0 0 0 2 4Zm-4-10 3 3 5-6"/></svg><h3>Тормозная система</h3><p>Проверяем колодки, диски и тормозную жидкость.</p><strong>от 10 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Тормозная система">Записаться</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/electric.webp" alt="Автоэлектрика" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m13 2-9 12h7l-1 8 10-12h-7Z"/></svg><h3>Автоэлектрика</h3><p>Ищем неисправности цепей, датчиков и оборудования.</p><strong>от 8 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Автоэлектрика">Записаться</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="assets/images/maintenance.webp" alt="Техническое обслуживание" loading="lazy" decoding="async"></div>
+          <div class="service-copy"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1"/></svg><h3>Техническое обслуживание</h3><p>Подбираем работы по регламенту и пробегу.</p><strong>от 12 000 ₸</strong><small>Зависит от модели авто</small>
+            <a class="text-link" href="#booking" data-service="Техническое обслуживание">Записаться</a>
+          </div>
+        </article>
+      </div>
+      <p class="note">Цены демонстрационные.</p>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="container split about">
+      <img src="assets/images/workshop.webp" alt="Механик обслуживает автомобиль в мастерской" loading="lazy" decoding="async">
+      <div><p class="eyebrow">О сервисе</p><h2>Точность в каждой детали</h2><p>Объясняем, какие работы нужны сейчас и что можно запланировать на следующее обслуживание.</p></div>
+    </div>
+  </section>
+  <section class="section panel" id="process">
+    <div class="container"><h2>Как проходит работа</h2>
+      <ol class="cards steps"><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16v15H4zM8 3v4m8-4v4M4 10h16m-11 5 2 2 4-4"/></svg><h3>Заявка</h3><p>Выбираете услугу и оставляете контакт.</p></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8V4h4m8 0h4v4m0 8v4h-4m-8 0H4v-4m3-4h10"/></svg><h3>Диагностика и смета</h3><p>Проверяем автомобиль и согласуем перечень работ и цену.</p></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 7a5 5 0 0 0-6-5l3 4-3 3-4-3a5 5 0 0 0 6 6l8 9 3-3-9-8Z"/></svg><h3>Ремонт</h3><p>Выполняем согласованные работы и проверяем результат.</p></li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 22 6-4a5 5 0 0 0 2-4V5l-8-3-8 3v9a5 5 0 0 0 2 4Zm-4-10 3 3 5-6"/></svg><h3>Выдача и гарантия</h3><p>Показываем результат и объясняем условия гарантии.</p></li></ol>
+    </div>
+  </section>
+  <section id="works" class="section">
+    <div class="container">
+      <div class="section-top"><div><p class="eyebrow">Наши работы</p><h2>Работа, которую видно</h2><p class="section-intro">Кадры для демонстрации сайта.</p></div>
+        <div class="gallery-controls"><button type="button" id="gallery-prev" aria-controls="gallery-track" aria-label="Предыдущая фотография"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button><button type="button" id="gallery-next" aria-controls="gallery-track" aria-label="Следующая фотография"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div>
+      </div>
+      <div class="gallery-track" id="gallery-track" tabindex="0" role="region" aria-label="Галерея. Перелистывайте стрелками или свайпом">
+        <figure><img src="assets/images/gallery1.png" alt="Тормозной диск и оранжевый суппорт" loading="lazy" decoding="async"><figcaption>Тормозной диск и оранжевый суппорт</figcaption></figure>
+        <figure><img src="assets/images/gallery2.png" alt="Компьютерная диагностика двигателя" loading="lazy" decoding="async"><figcaption>Компьютерная диагностика двигателя</figcaption></figure>
+        <figure><img src="assets/images/gallery3.png" alt="Обслуживание автомобиля в мастерской" loading="lazy" decoding="async"><figcaption>Обслуживание автомобиля в мастерской</figcaption></figure>
+        <figure><img src="assets/images/gallery4.png" alt="Ремонт подвески" loading="lazy" decoding="async"><figcaption>Ремонт подвески</figcaption></figure>
+        <figure><img src="assets/images/gallery5.png" alt="Осмотр BMW перед выдачей" loading="lazy" decoding="async"><figcaption>Осмотр BMW перед выдачей</figcaption></figure>
+      </div>
+    </div>
+  </section>
+  <section class="section panel" id="team"><div class="container"><h2>Команда</h2>
+    <!-- Replace each master-photo placeholder with a portrait and descriptive alt text. -->
+    <div class="cards three"><article><div class="master-photo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 22v-3a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v3M16 7a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/></svg><span>Фото мастера</span></div><h3>Мастер-приёмщик</h3></article><article><div class="master-photo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 22v-3a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v3M16 7a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/></svg><span>Фото мастера</span></div><h3>Механик</h3></article><article><div class="master-photo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 22v-3a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v3M16 7a4 4 0 1 0-8 0 4 4 0 0 0 8 0Z"/></svg><span>Фото мастера</span></div><h3>Диагност</h3></article></div>
+  </div></section>
+  <section class="section" id="reviews"><div class="container"><h2>Отзывы</h2>
+    <div class="cards three">
+      <article><p class="note">Пример</p><blockquote>«После диагностики показали причину ошибки и заранее согласовали стоимость».</blockquote></article>
+      <article><p class="note">Пример</p><blockquote>«Оставил машину утром. К вечеру всё было готово, а старые детали показали при выдаче».</blockquote></article>
+      <article><p class="note">Пример</p><blockquote>«Объяснили, что нужно поменять сейчас и что может подождать до следующего ТО».</blockquote></article>
+    </div>
+  </div></section>
+  <section class="section panel" id="faq"><div class="container"><h2>Частые вопросы</h2>
+    <div class="faq-list"><details name="service-faq"><summary>Сколько длится диагностика?<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>Базовая компьютерная диагностика обычно занимает 30–60 минут. Поиск причины неисправности может потребовать больше времени.</p></details><details name="service-faq"><summary>Даёте ли гарантию?<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>В этом демо указан срок 6 месяцев на работы. Для действующего сервиса условия фиксируются в заказ-наряде.</p></details><details name="service-faq"><summary>Можно ли оставить авто на день?<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>Да, время приёмки и выдачи можно согласовать при записи.</p></details><details name="service-faq"><summary>Работаете ли с запчастями клиента?<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>Да, если детали подходят по допускам производителя. Условия гарантии на работу обсуждаются до ремонта.</p></details><details name="service-faq"><summary>Как узнать итоговую стоимость?<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>После диагностики мастер составляет смету. Дополнительные работы согласуются отдельно.</p></details></div>
+  </div></section>
+  <section id="booking" class="section">
+    <div class="container split">
+      <div><p class="eyebrow">Запись на сервис</p><h2>Запишитесь за <em>минуту.</em></h2><p>Выберите услугу. Форма подготовит сообщение, которое вы сможете отправить в WhatsApp.</p><p class="note">В демо используется номер-плейсхолдер.</p></div>
+      <form id="booking-form" class="booking-form" novalidate>
+        <label for="customer-name">Имя</label><input id="customer-name" name="name" autocomplete="name" aria-label="Имя" maxlength="80" required>
+        <label for="customer-phone">Телефон</label><input id="customer-phone" name="phone" type="tel" autocomplete="tel" aria-label="Телефон" placeholder="+7 700 000 00 00" maxlength="24" required>
+        <label for="service-select">Услуга</label><select id="service-select" name="service" aria-label="Услуга" required><option value="">Выберите услугу</option><option>Компьютерная диагностика</option><option>Ремонт ходовой части</option><option>Замена масла</option><option>Тормозная система</option><option>Автоэлектрика</option><option>Техническое обслуживание</option></select>
+        <details id="booking-extra"><summary>Дополнительно<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <label for="booking-car">Марка автомобиля</label><input id="booking-car" name="car" aria-label="Марка автомобиля" maxlength="80">
+          <label for="booking-date">Предпочтительная дата</label><input id="booking-date" name="date" type="date" aria-label="Предпочтительная дата">
+        </details>
+        <button type="submit" class="btn btn-primary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.5 16a9 9 0 1 0-15.6 1L3 22l5-1.7A9 9 0 0 0 20.5 16Z M8 9c0 4 3 7 7 7l1-2-3-1-1 1-2-2 1-1-1-3Z"/></svg>Подготовить заявку</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+  <section id="contacts" class="section panel">
+    <div class="container split contacts">
+      <div><p class="eyebrow">Контакты</p><h2>Всегда на связи</h2>
+        <!-- Replace demo address and working hours with the studio's real information. -->
+        <dl><dt>Адрес</dt><dd>Алматы, [улица и номер здания]</dd><dt>Режим работы</dt><dd>Пн–Сб, 09:00–19:00 · пример</dd></dl>
+        <div class="actions"><a class="btn btn-outline" data-call href="tel:+70000000000"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 18 18 0 0 1-7.9-2.8 18 18 0 0 1-5.5-5.5 18 18 0 0 1-2.8-8A2 2 0 0 1 5.6 3h3a2 2 0 0 1 2 1.7l.5 2.8a2 2 0 0 1-.5 2.1L9.3 11a14 14 0 0 0 4.7 4.7l1.4-1.3a2 2 0 0 1 2.1-.5l2.8.5a2 2 0 0 1 1.7 2.5Z"/></svg>Позвонить</a><a class="btn btn-outline" data-studio-chat href="https://wa.me/70000000000"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.5 16a9 9 0 1 0-15.6 1L3 22l5-1.7A9 9 0 0 0 20.5 16Z M8 9c0 4 3 7 7 7l1-2-3-1-1 1-2-2 1-1-1-3Z"/></svg>WhatsApp</a></div>
+      </div>
+      <!-- Insert an accessible map iframe after confirming the address. -->
+      <div class="map-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 0 1 16 0Z M15 10a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/></svg><strong>Алматы, Казахстан</strong><span>Место для карты автосервиса</span></div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner">
+  <div><a class="brand" href="#">AutoFlow<em>KZ</em></a><p class="note">Демо-сайт автосервиса · NovaWeb KZ</p></div>
+  <a class="btn btn-outline" data-developer-chat href="https://wa.me/77476202879"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.5 16a9 9 0 1 0-15.6 1L3 22l5-1.7A9 9 0 0 0 20.5 16Z M8 9c0 4 3 7 7 7l1-2-3-1-1 1-2-2 1-1-1-3Z"/></svg>Заказать такой сайт</a>
+</div></footer>
+<div class="mobile-bottom" aria-label="Быстрые действия"><a class="btn btn-outline" data-call href="tel:+70000000000"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 18 18 0 0 1-7.9-2.8 18 18 0 0 1-5.5-5.5 18 18 0 0 1-2.8-8A2 2 0 0 1 5.6 3h3a2 2 0 0 1 2 1.7l.5 2.8a2 2 0 0 1-.5 2.1L9.3 11a14 14 0 0 0 4.7 4.7l1.4-1.3a2 2 0 0 1 2.1-.5l2.8.5a2 2 0 0 1 1.7 2.5Z"/></svg>Позвонить</a><a class="btn btn-outline" href="#booking">Записаться</a></div>
 </body>
-
 </html>
